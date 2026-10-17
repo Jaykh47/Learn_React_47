@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    height:100%;
+    width:100%;
+}
+
+.parent{
+    min-height: 100vh;
+    width:100%;
+    padding:30px;
+    background-color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
